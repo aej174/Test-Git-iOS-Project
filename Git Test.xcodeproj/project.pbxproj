@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222B584B18F0777B008A5EB7 /* AJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 222B584A18F0777B008A5EB7 /* AJTest.m */; };
 		2297753518EB4EE000294BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2297753418EB4EE000294BAD /* Foundation.framework */; };
 		2297753718EB4EE000294BAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2297753618EB4EE000294BAD /* CoreGraphics.framework */; };
 		2297753918EB4EE000294BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2297753818EB4EE000294BAD /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		222B584918F0777B008A5EB7 /* AJTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJTest.h; sourceTree = "<group>"; };
+		222B584A18F0777B008A5EB7 /* AJTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJTest.m; sourceTree = "<group>"; };
 		2297753118EB4EE000294BAD /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2297753418EB4EE000294BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2297753618EB4EE000294BAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				2297754618EB4EE000294BAD /* Main.storyboard */,
 				2297754918EB4EE000294BAD /* AJViewController.h */,
 				2297754A18EB4EE000294BAD /* AJViewController.m */,
+				222B584918F0777B008A5EB7 /* AJTest.h */,
+				222B584A18F0777B008A5EB7 /* AJTest.m */,
 				2297754C18EB4EE000294BAD /* Images.xcassets */,
 				2297753B18EB4EE000294BAD /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				2297754118EB4EE000294BAD /* main.m in Sources */,
 				2297754B18EB4EE000294BAD /* AJViewController.m in Sources */,
+				222B584B18F0777B008A5EB7 /* AJTest.m in Sources */,
 				2297754518EB4EE000294BAD /* AJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
